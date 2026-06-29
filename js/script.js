@@ -27,7 +27,7 @@ let interval = setInterval(function() {
     // }
 
 // second way
-    let imagePath = initialCountdown %2===0 ? "./images/edinburgh (1).jpg" : "./images/Best-Things-to-do-in-Edinburgh-Scotland.jpg"
+    let imagePath = initialCountdown %2===0 ? "./images/new_york.jpg" : "./images/paris.webp"
     bgimage.src = imagePath
     if(initialCountdown <=0){
         clearInterval(interval)
